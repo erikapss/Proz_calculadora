@@ -1,0 +1,16 @@
+ex = True
+while(ex == True):
+  try:
+      print ("Nome completo:")
+      nome = str(input())
+      print ("Ano de nascimento:")
+      nasc = int(input())
+      idade = (2023-nasc)
+      print("")
+      print("Seu nome é: ", nome, "| Sua idade é: ", idade)
+      print("")   
+  except:
+      print("")
+      print("Caracter inválido, tente novamente.")
+      print("")
+  continue 
